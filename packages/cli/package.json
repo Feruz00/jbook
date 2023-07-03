@@ -1,0 +1,29 @@
+{
+  "name": "feruzbook",
+  "version": "1.0.0",
+  "description": "",
+  "files": [
+    "dist"
+  ],
+  "bin": "dist/index.js",
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "start": "tsc --watch --preserveWatchOutput ",
+    "prepublishOnly": "esbuild src/index.ts --platform=node --outfile=dist/index.js --bundle --minify --define:process.env.NODE_ENV=\\\"production\\\" "
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+   "@feruzbook/local-client": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.3.3",
+    "esbuild": "^0.18.11",
+    "typescript": "^5.1.6",
+    "@feruzbook/local-api": "^1.0.0",
+    "commander": "^11.0.0"
+  }
+}
