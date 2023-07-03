@@ -1,11 +1,11 @@
 {
   "name": "@feruzbook/local-client",
-  "version": "0.1.0",
-  "files":[
+  "version": "1.0.0",
+  "files": [
     "build"
   ],
-  "publishConfig":{
-    "access":"public"
+  "publishConfig": {
+    "access": "public"
   },
   "devDependencies": {
     "@babel/core": "^7.22.5",

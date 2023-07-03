@@ -17,13 +17,13 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-   "@feruzbook/local-client": "^1.0.0"
+    "@feruzbook/local-client": "^1.0.0"
   },
   "devDependencies": {
-    "@types/node": "^20.3.3",
-    "esbuild": "^0.18.11",
-    "typescript": "^5.1.6",
     "@feruzbook/local-api": "^1.0.0",
-    "commander": "^11.0.0"
+    "@types/node": "^20.3.3",
+    "commander": "^11.0.0",
+    "esbuild": "^0.18.11",
+    "typescript": "^5.1.6"
   }
 }
